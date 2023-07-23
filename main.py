@@ -88,10 +88,12 @@ while run:
             how_control = True
             time.sleep(0.3)
         if keys[pygame.K_UP]:
-            volume += 0.1
+            if volume < 100:
+                volume += 0.1
             pygame.mixer.music.set_volume(volume)
         if keys[pygame.K_DOWN]:
-            volume -= 0.1
+            if volume < 0:
+                volume -= 0.1
             pygame.mixer.music.set_volume(volume)
         if keys[pygame.K_b]:
             settings = False
