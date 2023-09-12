@@ -92,7 +92,7 @@ while run:
                 volume += 0.1
             pygame.mixer.music.set_volume(volume)
         if keys[pygame.K_DOWN]:
-            if volume < 0:
+            if volume > 0:
                 volume -= 0.1
             pygame.mixer.music.set_volume(volume)
         if keys[pygame.K_b]:
