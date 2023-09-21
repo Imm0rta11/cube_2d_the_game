@@ -161,8 +161,8 @@ while run:
                     player_idle = green_player_idle
         if keys[pygame.K_3]:
             if keys[pygame.K_o]:
-                if money >= 1000 and not cyan_item.cyan:
-                    money -= 1000
+                if money >= 1500 and not cyan_item.cyan:
+                    money -= 1500
                     cyan_item.cyan = True
                     file_2 = open('purchased_items/cyan_item.py', 'w')
                     file_2.write('cyan = True')
@@ -176,8 +176,8 @@ while run:
                     player_idle = cyan_player_idle
         if keys[pygame.K_4]:
             if keys[pygame.K_o]:
-                if money >= 1000 and not yellow_item.yellow:
-                    money -= 1000
+                if money >= 2000 and not yellow_item.yellow:
+                    money -= 2000
                     yellow_item.yellow = True
                     file_2 = open('purchased_items/yellow_item.py', 'w')
                     file_2.write('yellow = True')
@@ -191,8 +191,8 @@ while run:
                     player_idle = yellow_player_idle
         if keys[pygame.K_5]:
             if keys[pygame.K_o]:
-                if money >= 1000 and not red_item.red:
-                    money -= 1000
+                if money >= 2500 and not red_item.red:
+                    money -= 2500
                     red_item.red = True
                     file_2 = open('purchased_items/red_item.py', 'w')
                     file_2.write('red = True')
@@ -206,8 +206,8 @@ while run:
                     player_idle = red_player_idle
         if keys[pygame.K_6]:
             if keys[pygame.K_o]:
-                if money >= 1000 and not purple_item.purple:
-                    money -= 1000
+                if money >= 3500 and not purple_item.purple:
+                    money -= 3500
                     purple_item.purple = True
                     file_2 = open('purchased_items/purple_item.py', 'w')
                     file_2.write('purple = True')
